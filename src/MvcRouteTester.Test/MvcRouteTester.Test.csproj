@@ -92,6 +92,7 @@
     <Compile Include="Controllers\GetPostController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="ApiControllers\MemberController.cs" />
+    <Compile Include="Controllers\ListPostController.cs" />
     <Compile Include="Controllers\RouteParamsCasesController.cs" />
     <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\TwoRouteParamsController.cs" />
@@ -119,6 +120,7 @@
     <Compile Include="WebRoute\GeneratesUrlTests.cs" />
     <Compile Include="WebRoute\HasAliasRouteTests.cs" />
     <Compile Include="ApiRoute\MemberControllerTests.cs" />
+    <Compile Include="WebRoute\ListPostControllerTests.cs" />
     <Compile Include="WebRoute\RouteMethodTests.cs" />
     <Compile Include="WebRoute\HasRouteTests.cs" />
     <Compile Include="Common\UrlHelpersTest.cs" />
