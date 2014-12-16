@@ -1,4 +1,5 @@
-﻿using System.Web.Routing;
+﻿using System.Web.Mvc.Routing;
+using System.Web.Routing;
 
 using MvcRouteTester.AttributeRouting.Test.Controllers;
 
@@ -14,7 +15,7 @@ namespace MvcRouteTester.AttributeRouting.Test.WebRoute
 		public void Setup()
 		{
 			routes = new RouteCollection();
-			routes.MapAttributeRoutesInAssembly(typeof(WithAreaController).Assembly);
+			routes.MapAttributeRoutesInAssembly(typeof(WithAreaController).Assembly, new DefaultInlineConstraintResolver());
 		}
 
 		[Test]
